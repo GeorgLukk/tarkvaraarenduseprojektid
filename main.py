@@ -122,3 +122,44 @@ while run: #teeb tsükli
             run = False
 pygame.quit()
 '''
+#Ülessanne 2 tekstide ja piltide kasutamine
+import pygame
+pygame.init()
+#ekraani seaded
+screen=pygame.display.set_mode([640,480])#annab resulutsiooni loodud aknale
+pygame.display.set_caption("Ülessanne 2")#annab aknale nime
+screen.fill([204, 255, 204])#paneb taustavärvi
+#Lisame pildid
+#pead tegema endale directory piltide jaoks kuhu sa pildid laed
+bg_shop = pygame.image.load("img/bg_shop.jpg")
+seller = pygame.image.load("img/seller.png")
+chat = pygame.image.load("img/chat.png")
+vikklogo = pygame.image.load("img/vikklogo.png")
+mõõk = pygame.image.load("img/mõõk.png")
+tort = pygame.image.load("img/tort.png")
+#annme piltidele suurused
+bg_shop = pygame.transform.scale(bg_shop, [640, 480])
+seller = pygame.transform.scale(seller, [300, 240])
+chat = pygame.transform.scale(chat, [200, 100])
+vikklogo = pygame.transform.scale(vikklogo, [300, 50])
+mõõk = pygame.transform.scale(mõõk, [100, 100])
+tort = pygame.transform.scale(tort, [100, 100])
+#anname pilltidele asukoha koordinaadid
+screen.blit(bg_shop,[0,0])
+screen.blit(seller,[140,180])
+screen.blit(chat,[340,150])
+screen.blit(vikklogo,[0,0])
+screen.blit(mõõk,[480,180])
+screen.blit(tort,[480,180])
+pygame.display.flip()#värskendab akent
+font = pygame.font.Font(None, 50)#annab testile fondi ning selle suuruse
+text = font.render("Georg", True, [204,20,40])#kirjutab selle lause ning annab selle värvi
+screen.blit(text, [380,180])#vaatab mis koodrinaatidele on see tekst kirjutatud
+pygame.display.flip()#värskendab akent
+#alustab tsükli
+run = True
+while run: #teeb tsükli
+    for event in pygame.event.get(): #kui alustatakse programm siis alustatakse pygame
+        if event.type == pygame.QUIT: #kui programm pannakse kinni läheb ka pygame kinni
+            run = False
+pygame.quit()
