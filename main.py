@@ -150,7 +150,7 @@ screen.blit(seller,[140,180])
 screen.blit(chat,[340,150])
 screen.blit(vikklogo,[0,0])
 screen.blit(mõõk,[480,180])
-screen.blit(tort,[480,180])
+screen.blit(tort,[350,190])
 pygame.display.flip()#värskendab akent
 font = pygame.font.Font(None, 50)#annab testile fondi ning selle suuruse
 text = font.render("Georg", True, [204,20,40])#kirjutab selle lause ning annab selle värvi
