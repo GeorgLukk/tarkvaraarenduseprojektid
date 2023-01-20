@@ -162,4 +162,3 @@ while run: #teeb tsükli
     for event in pygame.event.get(): #kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT: #kui programm pannakse kinni läheb ka pygame kinni
             run = False
-pygame.quit()
