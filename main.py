@@ -26,7 +26,6 @@ while running:#teeb tsükli
             running == False
 '''
 '''
-#ülessanne 1
 #tekstide ja piltide kasutamine
 import pygame
 pygame.init()
@@ -49,7 +48,6 @@ while running:#teeb tsükli
             running == False
 '''
 '''
-#lisaülessanne 1
 import pygame
 pygame.init()
 #ekraani seaded
@@ -72,7 +70,6 @@ while running:#teeb tsükli
             running == False
 '''
 '''
-#Ülessanne 2 harjutamine
 import pygame
 pygame.init()
 #ekraani seaded
@@ -90,8 +87,6 @@ while running:#teeb tsükli
         if event.type == pygame.QUIT:#kui programm pannakse kinni läheb ka pygame kinni
             running == False
 '''
-'''
-#ÜLESSANNE 2
 import pygame
 pygame.init()
 #ekraani seaded
@@ -121,4 +116,3 @@ while running:#teeb tsükli
     for event in pygame.event.get():#kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT:#kui programm pannakse kinni läheb ka pygame kinni
             running == False
-'''
