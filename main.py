@@ -156,7 +156,7 @@ font = pygame.font.Font(None, 50)#annab testile fondi ning selle suuruse
 text = font.render("Georg", True, [204,20,40])#kirjutab selle lause ning annab selle värvi
 screen.blit(text, [380,180])#vaatab mis koodrinaatidele on see tekst kirjutatud
 pygame.display.flip()#värskendab akent
-#alustab tsükli
+#alustab tsükli !!!!!!!!!!!!!!!!!!!
 run = True
 while run: #teeb tsükli
     for event in pygame.event.get(): #kui alustatakse programm siis alustatakse pygame
