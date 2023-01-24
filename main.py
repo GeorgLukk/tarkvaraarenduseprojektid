@@ -155,6 +155,8 @@ pygame.display.flip()#värskendab akent
 font = pygame.font.Font(None, 50)#annab testile fondi ning selle suuruse
 text = font.render("Georg", True, [204,20,40])#kirjutab selle lause ning annab selle värvi
 screen.blit(text, [380,180])#vaatab mis koodrinaatidele on see tekst kirjutatud
+pygame.draw.rect(screen, [255, 255, 255], [0, 0, 300, 50], 2)
+pygame.draw.arc(screen,[255,255,255], [240,0,80,50], -3.14/3, 1)
 pygame.display.flip()#värskendab akent
 #alustab tsükli !!!!!!!!!!!!!!!!!!!
 run = True
