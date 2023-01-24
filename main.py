@@ -122,6 +122,7 @@ while run: #teeb tsükli
             run = False
 pygame.quit()
 '''
+'''
 #Ülessanne 2 tekstide ja piltide kasutamine
 import pygame
 pygame.init()
@@ -155,12 +156,117 @@ pygame.display.flip()#värskendab akent
 font = pygame.font.Font(None, 50)#annab testile fondi ning selle suuruse
 text = font.render("Georg", True, [204,20,40])#kirjutab selle lause ning annab selle värvi
 screen.blit(text, [380,180])#vaatab mis koodrinaatidele on see tekst kirjutatud
-pygame.draw.rect(screen, [255, 255, 255], [0, 0, 300, 50], 2)
-pygame.draw.arc(screen,[255,255,255], [240,0,80,50], -3.14/3, 1)
+pygame.draw.rect(screen, [255, 255, 255], [0, 0, 300, 50], 2)#joonistab vikk logo ümber ristküliku
+pygame.draw.arc(screen,[255,255,255], [240,0,80,50], -3.14/3, 1)#joonistab kaare vikklogo juurde joonistatud risküliku kõrvale
 pygame.display.flip()#värskendab akent
 #alustab tsükli !!!!!!!!!!!!!!!!!!!
 run = True
 while run: #teeb tsükli
     for event in pygame.event.get(): #kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT: #kui programm pannakse kinni läheb ka pygame kinni
+            run = False
+'''
+
+
+#Ülessanne 3 harjutused
+#(1)
+'''
+import pygame
+import sys
+pygame.init()
+
+#värvid
+lGreen = [153, 255, 153]
+lBlue = [153, 204, 255]
+
+#ekraani seaded
+screen=pygame.display.set_mode([640,480])
+pygame.display.set_caption("Harjutamine")
+screen.fill(lGreen)
+
+gameover = False
+#alsutab tsükli kui mäng ei ole võit siis see väljastab antud pildi
+while not gameover:
+
+    #Lisame pildid
+    youWin = pygame.image.load("img/youwin.png")
+    youWin = pygame.transform.scale(youWin, [300, 120])
+    screen.blit(youWin,[180,100])
+
+    pygame.display.flip()
+
+pygame.quit()
+'''
+'''
+#funksioon mis joonistab maja
+def drawHouse(x, y, width, height, screen, color):#see funksioon küsib kahte punkti,laiust,pikkust,eraldavat suurust ja värvi
+    points = [(x, y - ((3 / 4.0) * height)), (x, y), (x + width, y), (x + width, y - (3 / 4.0) * height),
+              (x, y - ((3 / 4.0) * height)), (x + width / 2.0, y - height), (x + width, y - (3 / 4.0) * height)]
+    lineThickness = 2#annab sellele joonele millega maja joonistatakse suurema laiuse
+    pygame.draw.lines(screen, color, False, points, lineThickness)
+'''
+'''
+#imporsib erinevad moodulid
+import pygame
+import sys
+import random
+
+pygame.init()
+
+#defineerib värvid
+red = [255, 0, 0]
+green = [0, 255, 0]
+blue = [0, 0, 255]
+pink = [255, 153, 255]
+lGreen = [153, 255, 153]
+
+# ekraani seaded
+screen = pygame.display.set_mode([640, 480])#akna suurus
+pygame.display.set_caption("Harjutamine")#akna nimi
+screen.fill(lGreen)#akna sisene värv
+
+
+# funktsioon mida seletasin üleval pool juba
+def drawHouse(x, y, width, height, screen, color):#see funksioon küsib kahte punkti,laiust,pikkust,eraldavat suurust ja värvi
+    points = [(x, y - ((3 / 4.0) * height)), (x, y), (x + width, y), (x + width, y - (3 / 4.0) * height),
+              (x, y - ((3 / 4.0) * height)), (x + width / 2.0, y - height), (x + width, y - (3 / 4.0) * height)]
+    lineThickness = 2#annab sellele joonele millega maja joonistatakse suurema laiuse
+    pygame.draw.lines(screen, color, False, points, lineThickness)
+
+
+# kutsun funktsiooni välja ehk hakkan seda ülemist funksiooni kasutama (funksioon joonistab järgmisel real antud suuruste järgi)
+drawHouse(100, 400, 300, 200, screen, red)
+
+pygame.display.flip()
+#alustab tsükli !!!!!!!!!!!!!!!!!!!
+run = True
+while run: #teeb tsükli
+    for event in pygame.event.get(): #kui alustatakse programm siis alustatakse pygame
+        if event.type == pygame.QUIT: #kui programm pannakse kinni läheb ka pygame kinni
+            run = False
+'''
+
+#impordib erinevad moodulid
+import pygame
+import random
+pygame.init()#alustab akna
+
+#defineerib värvid
+red = [255, 0, 0]
+lGreen = [153, 255, 153]
+
+#ekraani seaded
+screen=pygame.display.set_mode([640,480])#akna suurused
+pygame.display.set_caption("Harjutamine")#akna nimi
+screen.fill(lGreen)#akna sisene värv
+#alustab suvaliste ruutude joonistamist
+for i in range (1,10):
+    x = random.randint(0, 620)
+    y = random.randint(0, 460)
+pygame.display.flip()
+# alustab tsükli mis hoiab akna lahti
+run = True
+while run:  # teeb tsükli
+    for event in pygame.event.get():  # kui alustatakse programm siis alustatakse pygame
+        if event.type == pygame.QUIT:  # kui programm pannakse kinni läheb ka pygame kinni
             run = False
