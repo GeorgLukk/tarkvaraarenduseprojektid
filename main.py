@@ -48,6 +48,7 @@ while running:#teeb tsükli
     for event in pygame.event.get():#kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT:#kui programm pannakse kinni läheb ka pygame kinni
             running = False
+pygame.quit()
 '''
 '''
 #Harjutamine
@@ -71,6 +72,7 @@ while running:#teeb tsükli
     for event in pygame.event.get():#kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT:#kui programm pannakse kinni läheb ka pygame kinni
             running = False
+pygame.quit()
 '''
 '''
 #ülessane 2 harjutamine
@@ -90,6 +92,7 @@ while running:#teeb tsükli
     for event in pygame.event.get():#kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT:#kui programm pannakse kinni läheb ka pygame kinni
             running = False
+pygame.quit()
 '''
 '''
 #Ülessanne 2 tekstide ja piltide kasutamine
@@ -168,6 +171,7 @@ while run: #teeb tsükli
     for event in pygame.event.get(): #kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT: #kui programm pannakse kinni läheb ka pygame kinni
             run = False
+pygame.quit()
 '''
 
 '''
@@ -249,6 +253,7 @@ while run: #teeb tsükli
     for event in pygame.event.get(): #kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT: #kui programm pannakse kinni läheb ka pygame kinni
             run = False
+pygame.quit()
 '''
 import pygame
 import colorsys
