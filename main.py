@@ -255,3 +255,19 @@ while run: #teeb tsükli
             run = False
 pygame.quit()
 '''
+import pygame
+import colorsys
+screen = pygame.display.set_mode([640, 480])#akna suurus
+pygame.display.set_caption("Random ruudud")#akna nimi
+screen.fill(lGreen)#akna sisene värv
+
+
+
+pygame.display.flip()
+#alustab tsükli !!!!!!!!!!!!!!!!!!!
+run = True
+while run: #teeb tsükli
+    for event in pygame.event.get(): #kui alustatakse programm siis alustatakse pygame
+        if event.type == pygame.QUIT: #kui programm pannakse kinni läheb ka pygame kinni
+            run = False
+pygame.quit()
