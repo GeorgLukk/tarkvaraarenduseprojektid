@@ -5,7 +5,7 @@ import pygame
 pygame.init()
 #teeb akna
 screen=pygame.display.set_mode([300,500])
-pygame.display.set_caption("lumememm - Georg")#annab aknale nime
+pygame.display.set_caption("Valgusfoor- Georg")#annab aknale nime
 #kujundite joonistamine
 pygame.draw.rect(screen, [222, 222, 222], [90, 10, 130, 270], 2)#joonistab ristküliku
 pygame.draw.circle(screen, [0, 255, 11], [155,60], 40, 0)#joonistab esimese ringi ja täidab selle värviga
@@ -23,9 +23,10 @@ running = True
 while running:#teeb tsükli
     for event in pygame.event.get():#kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT:#kui programm pannakse kinni läheb ka pygame kinni
-            running == False
+            running = False
 '''
 '''
+#harjutamine
 #tekstide ja piltide kasutamine
 import pygame
 pygame.init()
@@ -45,9 +46,10 @@ running = True
 while running:#teeb tsükli
     for event in pygame.event.get():#kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT:#kui programm pannakse kinni läheb ka pygame kinni
-            running == False
+            running = False
 '''
 '''
+#Harjutamine
 import pygame
 pygame.init()
 #ekraani seaded
@@ -245,28 +247,33 @@ while run: #teeb tsükli
         if event.type == pygame.QUIT: #kui programm pannakse kinni läheb ka pygame kinni
             run = False
 '''
-
-#impordib erinevad moodulid
 import pygame
-import random
-pygame.init()#alustab akna
+import colorsys
+screen = pygame.display.set_mode([640, 480])
+pygame.display.set_caption("Harjutamine")
 
-#defineerib värvid
-red = [255, 0, 0]
-lGreen = [153, 255, 153]
 
-#ekraani seaded
-screen=pygame.display.set_mode([640,480])#akna suurused
-pygame.display.set_caption("Harjutamine")#akna nimi
-screen.fill(lGreen)#akna sisene värv
-#alustab suvaliste ruutude joonistamist
-for i in range (1,10):
-    x = random.randint(0, 620)
-    y = random.randint(0, 460)
+GREEN = [153, 255, 153]
+RED = [255, 0, 0]
+screen.fill(RED)
+laius = input("sisestage laius: ")
+y = 1
+for i in range(laius):
+    x = 1
+    for i in range(100):
+        pygame.draw.rect(screen, GREEN, [x, y, 15, 15])
+        x += 18
+    y += 18
+
+
 pygame.display.flip()
-# alustab tsükli mis hoiab akna lahti
+
 run = True
-while run:  # teeb tsükli
-    for event in pygame.event.get():  # kui alustatakse programm siis alustatakse pygame
-        if event.type == pygame.QUIT:  # kui programm pannakse kinni läheb ka pygame kinni
+while run:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
             run = False
+
+    pygame.display.update()
+
+pygame.quit()
