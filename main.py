@@ -9,10 +9,12 @@ pygame.display.set_caption("Valgusfoor- Georg")#annab aknale nime
 #kujundite joonistamine
 pygame.draw.rect(screen, [222, 222, 222], [90, 10, 130, 270], 2)#joonistab ristküliku
 pygame.draw.circle(screen, [0, 255, 11], [155,60], 40, 0)#joonistab esimese ringi ja täidab selle värviga
+#pygame.draw.circle(screen, 1.([0, 255, 11]), 2.([155,60]), 3.(40), 4.(0))=1.[Värvi rgb kood] 2.[koordinaadid] 3.ringi raadius 4.0 on seest täitmine, 2 on tühi
 pygame.draw.circle(screen, [255, 246, 0], [155,145], 40, 0)#joonistab teise ringi ja täidab selle värviga
 pygame.draw.circle(screen, [255, 45, 0], [155,230], 40, 0)#joonistab kolmanda ringi ja täidab selle värviga
 pygame.draw.line(screen, [222,222,222], [155,280], [155,390], 2) #teeb posti
 #hakkab seda alust joonistama
+#pygame.draw.polygon(screen, [värv], [[koordinaadid 1],[koordinaadid 2],[koordinaadid 3],[koordinaadid 4],[koordinaadid 5]], 2)
 pygame.draw.polygon(screen, [126, 128, 130], [[100,390],[190,390],[250,450],[40,450],[100,390]], 2)
 pygame.draw.polygon(screen, [0, 123, 255], [[130,390],[190,390],[210,410],[80,410],[100,390]], 0)
 pygame.draw.polygon(screen, [3, 3, 3], [[80,410],[210,410],[230,430],[60,430],[80,410]], 0)
