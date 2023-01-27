@@ -259,11 +259,10 @@ import pygame
 import colorsys
 screen = pygame.display.set_mode([640, 480])#akna suurus
 pygame.display.set_caption("Random ruudud")#akna nimi
-screen.fill(lGreen)#akna sisene värv
+screen.fill([204, 255, 204])#paneb taustavärvi
+pygame.draw.rect(screen, [222, 222, 222], [0, 0, 30, 30], 2)#joonistab ristküliku
 
-
-
-pygame.display.flip()
+pygame.display.flip()#värskendab akna
 #alustab tsükli !!!!!!!!!!!!!!!!!!!
 run = True
 while run: #teeb tsükli
