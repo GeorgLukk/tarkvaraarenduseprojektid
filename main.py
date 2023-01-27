@@ -24,6 +24,7 @@ while running:#teeb tsükli
     for event in pygame.event.get():#kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT:#kui programm pannakse kinni läheb ka pygame kinni
             running = False
+pygame.quit()
 '''
 '''
 #harjutamine
@@ -169,10 +170,10 @@ while run: #teeb tsükli
             run = False
 '''
 
-
+'''
 #Ülessanne 3 harjutused
 #(1)
-'''
+
 import pygame
 import sys
 pygame.init()
@@ -200,6 +201,7 @@ while not gameover:
 pygame.quit()
 '''
 '''
+#harjutamine
 #funksioon mis joonistab maja
 def drawHouse(x, y, width, height, screen, color):#see funksioon küsib kahte punkti,laiust,pikkust,eraldavat suurust ja värvi
     points = [(x, y - ((3 / 4.0) * height)), (x, y), (x + width, y), (x + width, y - (3 / 4.0) * height),
@@ -208,6 +210,7 @@ def drawHouse(x, y, width, height, screen, color):#see funksioon küsib kahte pu
     pygame.draw.lines(screen, color, False, points, lineThickness)
 '''
 '''
+#harjutamine
 #imporsib erinevad moodulid
 import pygame
 import sys
@@ -256,9 +259,8 @@ pygame.display.set_caption("Harjutamine")
 GREEN = [153, 255, 153]
 RED = [255, 0, 0]
 screen.fill(RED)
-laius = input("sisestage laius: ")
 y = 1
-for i in range(laius):
+for i in range(100):
     x = 1
     for i in range(100):
         pygame.draw.rect(screen, GREEN, [x, y, 15, 15])
@@ -273,3 +275,4 @@ while run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
+pygame.quit()
