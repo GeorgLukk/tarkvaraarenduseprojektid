@@ -69,7 +69,7 @@ running = True
 while running:#teeb tsükli
     for event in pygame.event.get():#kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT:#kui programm pannakse kinni läheb ka pygame kinni
-            running == False
+            running = False
 '''
 '''
 #ülessane 2 harjutamine
@@ -88,7 +88,7 @@ running = True
 while running:#teeb tsükli
     for event in pygame.event.get():#kui alustatakse programm siis alustatakse pygame
         if event.type == pygame.QUIT:#kui programm pannakse kinni läheb ka pygame kinni
-            running == False
+            running = False
 '''
 '''
 #Ülessanne 2 tekstide ja piltide kasutamine
