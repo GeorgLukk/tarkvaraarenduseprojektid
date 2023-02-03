@@ -1,7 +1,10 @@
 number = [ 0, 'üks', 2, 'kolm']#järjendid võivad olla erinevat tüüpi
+print(number[1])
 tühi_järjend = []#võib olla ka tühi järjend
 numbrid = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]#numbritega näide järjendist
 #pythonis algab indekseerimine 0'st
+list = ["Tere", "headaega"]
+print (list[0])
 nädalapäevad = ["esmaspäev", "teisipäev", "kolmapäev", "neljapäev", "reede", "laupäev", "pühapäev"]
 #nädalapäevad = ["esmaspäev"#0, "teisipäev"#1, "kolmapäev"#2, "neljapäev"#3, "reede"#4, "laupäev"#5, "pühapäev"#6]
 nimi = ['Malle', 'Volli', 'Salme', 'Kustav']#tekitatakse loend nimedest
@@ -17,7 +20,7 @@ print (nimi[0])#tahetakse väljastada nime mille indeks on 0 ehk Malle
 #Näide 1
 for linn in ["Tartu", "Tallinn", "Põltsamaa"]:
     print("Muutuja linn väärtus: " + linn)
-#prindidakse esimene "" + esimene linn jne
+#prindidakse esimene "" + esimene , teine , kolmas
 #Näide 2
 a = [12, 23, 34, 45, 56]
 i = 0

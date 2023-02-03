@@ -236,14 +236,12 @@ screen = pygame.display.set_mode([640, 480])#akna suurus
 pygame.display.set_caption("Harjutamine")#akna nimi
 screen.fill(lGreen)#akna sisene värv
 
-
 # funktsioon mida seletasin üleval pool juba
 def drawHouse(x, y, width, height, screen, color):#see funksioon küsib kahte punkti,laiust,pikkust,eraldavat suurust ja värvi
     points = [(x, y - ((3 / 4.0) * height)), (x, y), (x + width, y), (x + width, y - (3 / 4.0) * height),
               (x, y - ((3 / 4.0) * height)), (x + width / 2.0, y - height), (x + width, y - (3 / 4.0) * height)]
     lineThickness = 2#annab sellele joonele millega maja joonistatakse suurema laiuse
     pygame.draw.lines(screen, color, False, points, lineThickness)
-
 
 # kutsun funktsiooni välja ehk hakkan seda ülemist funksiooni kasutama (funksioon joonistab järgmisel real antud suuruste järgi)
 drawHouse(100, 400, 300, 200, screen, red)
