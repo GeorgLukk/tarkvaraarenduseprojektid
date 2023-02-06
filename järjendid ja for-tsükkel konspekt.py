@@ -30,17 +30,33 @@ for el in a:
         i += 1
 print(i)
 #prinditakse 12 siis 23 jne kuna seal koodis on i+= 1 siis liidedakse i'le antud indeksile 1 juurde
+
 #FOR RANGE
 #For range varjandid
 list(range(5))
 [0, 1, 2, 3, 4]
+print(list(range(5)))
+print(list(range(0,5)))
 list(range(0, 15, 2))
 [0, 2, 4, 6, 8, 10, 12, 14]
-#saab ka lisada elemendi järjendi lõppü
+print(list(range(0,15,2)))#annab sellest range funktsioonist ainult paarisarvud
+list(range(5, 0, -1))
+[5, 4, 3, 2, 1]
+print(list(range(5, 0, -1)))
+for i1 in range(5):#teeb endale range funktsiooni nimega i
+    print(i1)#prindib funksiooni range i 0,1,2,3,4
+for i2 in range(1,5,1):#teeb range funktsiooni 1st 4ni
+    print(i2)#prindib selle range funktsiooni 1,2,3,4
+'''
+arvud = [2,4,6,7,2]
+for i in range(0,5,1):
+    print(arvud[i])
+
+#saab ka lisada elemendi järjendi lõppu
 a = []
 a.append(2)
 #Sellisel moel saab ka .txt failidest võtta ridu ning väljastada neid python failis
-'''
+
 #1
 f = open('andmed.txt')#teeb .txt faili lahti
 for rida in f:
@@ -50,10 +66,12 @@ f.close()#paneb kinni faili
 #2
 f = open('nimed.txt')#avab faili
 while True:
-    nimi = f.readline() #loeb failist antude rea
+    nimi = f.readline() #loeb failist antud rea
     if nimi == "":#kui pole seal midagi anda annab see tühja vastuse
+        print('nimi on:' + f.readline())
         break
 f.close()#paneb kinni faili
+'''
 #näide failist lugemisel
 nimekiri = []
 f = open('nimekiri_10it.txt',encoding='utf-8')#lisatakse fail ning selle nimi ja kooding
@@ -62,3 +80,4 @@ for rida in f:
 f.close()#suleb faili
 suvaline = random.randint(0,len(nimekiri)- 1)#loob suvalise'le enda range
 print(nimekiri[suvaline])#prindib suvalise'le antud rantgest midagi
+'''
