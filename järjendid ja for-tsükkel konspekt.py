@@ -1,3 +1,4 @@
+'''
 number = [ 0, 'üks', 2, 'kolm']#järjendid võivad olla erinevat tüüpi
 print(number[1])
 tühi_järjend = []#võib olla ka tühi järjend
@@ -39,11 +40,13 @@ list(range(0, 15, 2))
 a = []
 a.append(2)
 #Sellisel moel saab ka .txt failidest võtta ridu ning väljastada neid python failis
+'''
 #1
 f = open('andmed.txt')#teeb .txt faili lahti
 for rida in f:
     print('Lugesin järgneva rea: ' + rida)
 f.close()#paneb kinni faili
+'''
 #2
 f = open('nimed.txt')#avab faili
 while True:
@@ -59,3 +62,4 @@ for rida in f:
 f.close()#suleb faili
 suvaline = random.randint(0,len(nimekiri)- 1)#loob suvalise'le enda range
 print(nimekiri[suvaline])#prindib suvalise'le antud rantgest midagi
+'''
