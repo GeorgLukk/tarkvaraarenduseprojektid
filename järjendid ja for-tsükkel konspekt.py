@@ -63,7 +63,7 @@ a = [2,3,4,2,6,]#loob järjendi nimega a
 a[2] = 90
 a.append(5)#loob indeksile uue sisendi
 a[5] = 99#täidab indeksi 5 sisendi
-a.remove(2)
+a.remove(2)#removib ära selle arvu järjendist mitte indeksi
 a.append(6)#loob indeksile uue sisendi
 a[5] = 1#täidab indeksi 6 sisendi
 #a.sort()
