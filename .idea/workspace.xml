@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/img/Thumbs.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/järjendid ja for-tsükkel konspekt.py" beforeDir="false" afterPath="$PROJECT_DIR$/järjendid ja for-tsükkel konspekt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nimed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nimed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nimekiri_10it.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nimekiri_10it.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +223,19 @@
       <option name="presentableId" value="LOCAL−00021" />
       <updated>1675672701272</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL−00022" summary="test">
+      <created>1675674107982</created>
+      <option name="number" value="LOCAL−00022" />
+      <option name="presentableId" value="LOCAL−00022" />
+      <updated>1675674107982</updated>
+    </task>
+    <task id="LOCAL−00023" summary="test">
+      <created>1675674160611</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1675674160611</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

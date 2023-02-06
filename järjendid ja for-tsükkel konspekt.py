@@ -59,8 +59,17 @@ for i in range(0,6,5):#for range indeksitega 0-6 ning vahe nende indeksitel on 6
 #saab ka lisada elemendi järjendi lõppu
 a = []
 a.append(2)
-#Sellisel moel saab ka .txt failidest võtta ridu ning väljastada neid python failis
+a = [2,3,4,2,6,]#loob järjendi nimega a
+a[2] = 90
+a.append(5)#loob indeksile uue sisendi
+a[5] = 99#täidab indeksi 5 sisendi
+a.remove(2)
+a.append(6)#loob indeksile uue sisendi
+a[5] = 1#täidab indeksi 6 sisendi
+#a.sort()
+print (a)#prindib a järjendi
 
+#Sellisel moel saab ka .txt failidest võtta ridu ning väljastada neid python failis
 #1
 f = open('andmed.txt')#teeb .txt faili lahti
 for rida in f:
@@ -74,13 +83,13 @@ while True:
     if nimi == "":#kui pole seal midagi anda annab see tühja vastuse
         break
 f.close()#paneb kinni faili
-'''
+
 #näide failist lugemisel
-nimekiri = []
+import random#impordib randon funsiooni
+nimekiri = []#teeb tühja järjendi
 f = open('nimekiri_10it.txt',encoding='utf-8')#lisatakse fail ning selle nimi ja kooding
 for rida in f:
-    nimekiri.append(rida.strip())#hakatakse faili lugema
+    nimekiri.append(rida.strip())#hakatakse faili lugema iga rida
 f.close()#suleb faili
-suvaline = random.randint(0,len(nimekiri)- 1)#loob suvalise'le enda range
-print(nimekiri[suvaline])#prindib suvalise'le antud rantgest midagi
-'''
+suvaline = random.randint(0,len(nimekiri)- 1)#loob suvalise'le enda range'le
+print('suvaline asi on: '+nimekiri[suvaline])#prindib suvalise'le antud rantgest midagi
