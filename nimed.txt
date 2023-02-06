@@ -1,1 +1,4 @@
-georg, peeter, olev, kiire
+georg
+peeter
+olev
+kiire
