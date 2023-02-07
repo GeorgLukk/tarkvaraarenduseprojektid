@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/andmed.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/järjendid ja for-tsükkel konspekt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kalkulaator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nimed.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nimekiri_10it.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/järjend ja for-tsükkel tööleht.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +250,19 @@
       <option name="presentableId" value="LOCAL−00026" />
       <updated>1675754124805</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL−00027" summary="test">
+      <created>1675754243469</created>
+      <option name="number" value="LOCAL−00027" />
+      <option name="presentableId" value="LOCAL−00027" />
+      <updated>1675754243469</updated>
+    </task>
+    <task id="LOCAL−00028" summary="test">
+      <created>1675754261744</created>
+      <option name="number" value="LOCAL−00028" />
+      <option name="presentableId" value="LOCAL−00028" />
+      <updated>1675754261744</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
