@@ -70,6 +70,7 @@ a[5] = 1#täidab indeksi 6 sisendi
 #a.sort()
 print (a)#prindib a järjendi
 '''
+'''
 #Sellisel moel saab ka .txt failidest võtta ridu ning väljastada neid python failis
 #1
 f = open('andmed.txt')#teeb .txt faili lahti
@@ -94,3 +95,4 @@ for rida in f:
 f.close()#suleb faili
 suvaline = random.randint(0,len(nimekiri)- 1)#loob suvalise'le enda range'le
 print('suvaline asi on: '+nimekiri[suvaline])#prindib suvalise'le antud rantgest midagi
+'''
