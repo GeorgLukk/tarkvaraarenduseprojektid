@@ -7,7 +7,6 @@
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/järjend ja for-tsükkel tööleht.py" beforeDir="false" afterPath="$PROJECT_DIR$/järjend ja for-tsükkel tööleht.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/järjendid ja for-tsükkel konspekt.py" beforeDir="false" afterPath="$PROJECT_DIR$/järjendid ja for-tsükkel konspekt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +269,13 @@
       <option name="presentableId" value="LOCAL−00029" />
       <updated>1675754579273</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL−00030" summary="test">
+      <created>1675756099535</created>
+      <option name="number" value="LOCAL−00030" />
+      <option name="presentableId" value="LOCAL−00030" />
+      <updated>1675756099535</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
