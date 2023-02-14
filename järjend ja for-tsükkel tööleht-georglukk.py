@@ -1,3 +1,4 @@
+#Georg Lukk
 '''
 #Ülesanne 1. Seitse linna I (kohustuslik) +ÜL3
 #Koosta järjend, milles on vähemalt seitse Eesti linna ning järjesta need tähestikulisse järjekorda, kasutades selleks vastavat funktsiooni.
