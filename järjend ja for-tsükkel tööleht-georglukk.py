@@ -22,9 +22,10 @@ print(c)#väljastab järjendi
 #ÜL4
 import turtle
 i=0
-for i in range (4):
-    turtle.fd(50)
-    turtle.lt(90)
+#hakkab ruutu joonistama
+for i in range (4):#tsükkel mis käib niikaua kui i on 4
+    turtle.fd(50)#läheb edasi
+    turtle.lt(90)#keerab vasakule 90 kraadi
     i+1
 turtle.exitonclick()
 
