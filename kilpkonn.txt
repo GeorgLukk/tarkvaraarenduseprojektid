@@ -1,0 +1,5 @@
+edasi(100)
+paremale(120)
+edasi(100)
+paremale(120)
+edasi(100)

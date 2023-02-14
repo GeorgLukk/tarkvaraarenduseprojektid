@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kilpkonn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sammud.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_02_2023_09_02__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_02_2023_09_02__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,21 +32,24 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KaIAhD7ucf3rJWKorm1phgpSkm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;X:/IS22/robert/pythonProject1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "X:/IS22/robert/pythonProject1",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="järjendid ja for-tsükkel konspekt" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="järjendid ja for-tsükkel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,7 +61,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="X:\IS22\robert\pythonProject1\järjendid ja for-tsükkel konspekt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/järjendid ja for-tsükkel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -62,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pygame" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +82,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="X:\IS22\robert\pythonProject1\pygame.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,6 +91,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.järjendid ja for-tsükkel" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -190,136 +203,18 @@
       <option name="project" value="LOCAL" />
       <updated>1675385686726</updated>
     </task>
-    <task id="LOCAL−00017" summary="test">
-      <created>1675428434666</created>
-      <option name="number" value="LOCAL−00017" />
-      <option name="presentableId" value="LOCAL−00017" />
-      <updated>1675428434666</updated>
+    <task id="LOCAL-00017" summary="test">
+      <created>1676334824735</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676334824735</updated>
     </task>
-    <task id="LOCAL−00018" summary="test">
-      <created>1675671039203</created>
-      <option name="number" value="LOCAL−00018" />
-      <option name="presentableId" value="LOCAL−00018" />
-      <updated>1675671039203</updated>
-    </task>
-    <task id="LOCAL−00019" summary="test">
-      <created>1675671305163</created>
-      <option name="number" value="LOCAL−00019" />
-      <option name="presentableId" value="LOCAL−00019" />
-      <updated>1675671305163</updated>
-    </task>
-    <task id="LOCAL−00020" summary="test">
-      <created>1675671370364</created>
-      <option name="number" value="LOCAL−00020" />
-      <option name="presentableId" value="LOCAL−00020" />
-      <updated>1675671370364</updated>
-    </task>
-    <task id="LOCAL−00021" summary="test">
-      <created>1675672701272</created>
-      <option name="number" value="LOCAL−00021" />
-      <option name="presentableId" value="LOCAL−00021" />
-      <updated>1675672701272</updated>
-    </task>
-    <task id="LOCAL−00022" summary="test">
-      <created>1675674107982</created>
-      <option name="number" value="LOCAL−00022" />
-      <option name="presentableId" value="LOCAL−00022" />
-      <updated>1675674107982</updated>
-    </task>
-    <task id="LOCAL−00023" summary="test">
-      <created>1675674160611</created>
-      <option name="number" value="LOCAL−00023" />
-      <option name="presentableId" value="LOCAL−00023" />
-      <updated>1675674160611</updated>
-    </task>
-    <task id="LOCAL−00024" summary="test">
-      <created>1675675700468</created>
-      <option name="number" value="LOCAL−00024" />
-      <option name="presentableId" value="LOCAL−00024" />
-      <updated>1675675700468</updated>
-    </task>
-    <task id="LOCAL−00025" summary="test">
-      <created>1675676007691</created>
-      <option name="number" value="LOCAL−00025" />
-      <option name="presentableId" value="LOCAL−00025" />
-      <updated>1675676007691</updated>
-    </task>
-    <task id="LOCAL−00026" summary="test">
-      <created>1675754124805</created>
-      <option name="number" value="LOCAL−00026" />
-      <option name="presentableId" value="LOCAL−00026" />
-      <updated>1675754124805</updated>
-    </task>
-    <task id="LOCAL−00027" summary="test">
-      <created>1675754243469</created>
-      <option name="number" value="LOCAL−00027" />
-      <option name="presentableId" value="LOCAL−00027" />
-      <updated>1675754243469</updated>
-    </task>
-    <task id="LOCAL−00028" summary="test">
-      <created>1675754261744</created>
-      <option name="number" value="LOCAL−00028" />
-      <option name="presentableId" value="LOCAL−00028" />
-      <updated>1675754261744</updated>
-    </task>
-    <task id="LOCAL−00029" summary="test">
-      <created>1675754579273</created>
-      <option name="number" value="LOCAL−00029" />
-      <option name="presentableId" value="LOCAL−00029" />
-      <updated>1675754579273</updated>
-    </task>
-    <task id="LOCAL−00030" summary="test">
-      <created>1675756099535</created>
-      <option name="number" value="LOCAL−00030" />
-      <option name="presentableId" value="LOCAL−00030" />
-      <updated>1675756099535</updated>
-    </task>
-    <task id="LOCAL−00031" summary="test">
-      <created>1675759085158</created>
-      <option name="number" value="LOCAL−00031" />
-      <option name="presentableId" value="LOCAL−00031" />
-      <updated>1675759085158</updated>
-    </task>
-    <task id="LOCAL−00032" summary="test">
-      <created>1675759094319</created>
-      <option name="number" value="LOCAL−00032" />
-      <option name="presentableId" value="LOCAL−00032" />
-      <updated>1675759094319</updated>
-    </task>
-    <task id="LOCAL−00033" summary="test">
-      <created>1676359359077</created>
-      <option name="number" value="LOCAL−00033" />
-      <option name="presentableId" value="LOCAL−00033" />
-      <updated>1676359359077</updated>
-    </task>
-    <task id="LOCAL−00034" summary="test">
-      <created>1676359430608</created>
-      <option name="number" value="LOCAL−00034" />
-      <option name="presentableId" value="LOCAL−00034" />
-      <updated>1676359430608</updated>
-    </task>
-    <task id="LOCAL−00035" summary="test">
-      <created>1676359564152</created>
-      <option name="number" value="LOCAL−00035" />
-      <option name="presentableId" value="LOCAL−00035" />
-      <updated>1676359564152</updated>
-    </task>
-    <task id="LOCAL−00036" summary="test">
-      <created>1676366141310</created>
-      <option name="number" value="LOCAL−00036" />
-      <option name="presentableId" value="LOCAL−00036" />
-      <updated>1676366141310</updated>
-    </task>
-    <task id="LOCAL−00037" summary="test">
-      <created>1676366400533</created>
-      <option name="number" value="LOCAL−00037" />
-      <option name="presentableId" value="LOCAL−00037" />
-      <updated>1676366400533</updated>
-    </task>
-    <option name="localTasksCounter" value="38" />
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
