@@ -13,8 +13,8 @@ with open('sammud.txt') as f:
 sammud_kokku = sum(sammude_list)
 print(sammud_kokku)
 print(sum(sammude_list)/len(sammude_list))#keskmine arvutamine
-print(min(sammude_list))
-print(max(sammude_list))
+print(min(sammude_list))#prindb vähima arvu
+print(max(sammude_list))#prindib suurima arvu
 '''
 #ÜL2f = open('sammud.txt')#teeb .txt faili lahti
 from googletrans import *
