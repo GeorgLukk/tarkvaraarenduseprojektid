@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_9_2023_12_00_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_9_2023_12_00_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/järjend ja for-tsükkel tööleht.py" beforeDir="false" afterPath="$PROJECT_DIR$/järjend ja for-tsükkel tööleht-georglukk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/veebileht/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/veebileht/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/järjendid ja for-tsükkel konspekt.py" beforeDir="false" afterPath="$PROJECT_DIR$/järjendid ja for-tsükkel konspekt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +287,25 @@
       <option name="presentableId" value="LOCAL−00032" />
       <updated>1675759094319</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL−00033" summary="test">
+      <created>1676359359077</created>
+      <option name="number" value="LOCAL−00033" />
+      <option name="presentableId" value="LOCAL−00033" />
+      <updated>1676359359077</updated>
+    </task>
+    <task id="LOCAL−00034" summary="test">
+      <created>1676359430608</created>
+      <option name="number" value="LOCAL−00034" />
+      <option name="presentableId" value="LOCAL−00034" />
+      <updated>1676359430608</updated>
+    </task>
+    <task id="LOCAL−00035" summary="test">
+      <created>1676359564152</created>
+      <option name="number" value="LOCAL−00035" />
+      <option name="presentableId" value="LOCAL−00035" />
+      <updated>1676359564152</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

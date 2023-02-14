@@ -48,7 +48,7 @@ for i1 in range(5):#teeb endale range funktsiooni nimega i
 for i2 in range(1,5,1):#teeb range funktsiooni 1st 4ni
     print(i2)#prindib selle range funktsiooni 1,2,3,4
 '''
-'''
+
 arvud = [2,4,6,7,2]#tehakse järjend nimega arvud
 for i in range(0,5,1):#for range indeksitega 0-5 ning vahe nende indeksitel on 1
     print(arvud[i])#prindib arvud järjendist
@@ -69,7 +69,7 @@ a.append(6)#loob indeksile uue sisendi
 a[5] = 1#täidab indeksi 6 sisendi
 #a.sort()
 print (a)#prindib a järjendi
-'''
+
 '''
 #Sellisel moel saab ka .txt failidest võtta ridu ning väljastada neid python failis
 #1
