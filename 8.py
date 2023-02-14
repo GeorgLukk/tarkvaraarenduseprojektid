@@ -1,3 +1,4 @@
+#Georg Lukk IS22
 '''
 #ÜL1
 sammude_list=[]
@@ -16,9 +17,13 @@ print(min(sammude_list))
 print(max(sammude_list))
 '''
 #ÜL2f = open('sammud.txt')#teeb .txt faili lahti
+from googletrans import *
+trans = Translator
 k2sud = []
 f = open('sammud.txt')#teeb .txt faili lahti
 for rida in f:
     k2sud.append(rida.strip())#loob iga failis olevale reale listis indeksi koha
 f.close()#paneb kinni faili
-
+det = trans.detect(k2sud)
+t6lge = trans.translate(k2sud,dest=en)
+print(t6lge)
