@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/järjendid ja for-tsükkel konspekt.py" beforeDir="false" afterPath="$PROJECT_DIR$/järjendid ja for-tsükkel konspekt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +304,13 @@
       <option name="presentableId" value="LOCAL−00035" />
       <updated>1676359564152</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL−00036" summary="test">
+      <created>1676366141310</created>
+      <option name="number" value="LOCAL−00036" />
+      <option name="presentableId" value="LOCAL−00036" />
+      <updated>1676366141310</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
