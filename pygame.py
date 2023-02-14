@@ -255,7 +255,8 @@ while run: #teeb tsükli
             run = False
 pygame.quit()
 '''
-import pygame
+
+from pygame import *
 import colorsys
 screen = pygame.display.set_mode([640, 480])#akna suurus
 pygame.display.set_caption("Random ruudud")#akna nimi

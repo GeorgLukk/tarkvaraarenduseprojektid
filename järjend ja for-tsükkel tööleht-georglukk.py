@@ -42,6 +42,7 @@ for paaris in e:#alustab for tsükli mis vaatab e järjendit
         print(paaris,end=',')#väljastab paaris numbri ning paneb koma nenede vahele
 #end on funksioon mis paneb midagi iga tsükli lõppu (praegusel juhul )
 '''
+'''
 #ÜL7
 kuud = ["Jaanuar","Veebruar","Märts","Aprill","Mai","Juuni","Juuli","August","September","Oktoober","november","Detsember"]
 kuupäevad = []
@@ -49,3 +50,4 @@ kuupäev = input("Sisestage kuupäev: ")
 kuupäevad.append(kuupäev)
 print (kuupäevad)
 
+'''
