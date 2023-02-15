@@ -41,7 +41,7 @@ det = trans.detect(k2sud)
 t6lge = trans.translate(k2sud,dest=en)
 print(t6lge)
 '''
-'''
+
 #ÜL2.2
 import turtle
 kilpkonn=[]
@@ -68,4 +68,4 @@ while g==arv:
     g += 1
     if g==arv:
         t.done()
-'''
+
