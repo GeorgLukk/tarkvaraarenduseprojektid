@@ -268,12 +268,6 @@ pygame.draw.rect(screen, [222, 222, 222], [0, 0, 30, 30], 2)#joonistab ristküli
 
 
 
-
-
-
-
-
-
 pygame.display.flip()#värskendab akna
 #alustab tsükli !!!!!!!!!!!!!!!!!!!
 run = True
