@@ -256,12 +256,23 @@ while run: #teeb tsükli
 pygame.quit()
 '''
 
-from pygame import *
+import pygame
 import colorsys
+pygame.init()
 screen = pygame.display.set_mode([640, 480])#akna suurus
 pygame.display.set_caption("Random ruudud")#akna nimi
 screen.fill([204, 255, 204])#paneb taustavärvi
 pygame.draw.rect(screen, [222, 222, 222], [0, 0, 30, 30], 2)#joonistab ristküliku
+
+
+
+
+
+
+
+
+
+
 
 pygame.display.flip()#värskendab akna
 #alustab tsükli !!!!!!!!!!!!!!!!!!!
