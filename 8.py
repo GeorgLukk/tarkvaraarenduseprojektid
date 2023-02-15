@@ -1,5 +1,5 @@
 #Georg Lukk IS22
-'''
+
 #ÜL1
 sammude_list=[]
 f = open('sammud.txt')#teeb .txt faili lahti
@@ -16,12 +16,17 @@ with open('sammud.txt') as f:
 sammud_kokku = sum(sammude_list)
 print("sammude arv kokku",sammud_kokku,".")
 
-print("keskmine sammude arv oli",sum(sammude_list)/len(sammude_list),".")#keskmine arvutamine
+keskmine= (sum(sammude_list)/len(sammude_list))
+print("keskmine sammude arv oli",round(keskmine),".")#keskmine arvutamine
 
-print("kõige väiksem sammude arv oli",min(sammude_list),".")#prindb vähima arvu
+minimum = min(sammude_list)
+päev = sammude_list.index(minimum)
+print("kõige väiksem sammude arv oli",minimum,"ja see on ",päev,"päev"".")#prindb vähima arvu
 
-print("kõige suurem sammude arv oli",max(sammude_list),".")#prindib suurima arvu
-'''
+maximum = max(sammude_list)
+päev2 = sammude_list.index(maximum)
+print("kõige suurem sammude arv oli",maximum,"ja see on ",päev2,"päev"".")#prindib suurima arvu
+
 '''
 #ÜL2f = open('sammud.txt')#teeb .txt faili lahti
 from googletrans import *
@@ -35,6 +40,7 @@ print(k2sud)
 det = trans.detect(k2sud)
 t6lge = trans.translate(k2sud,dest=en)
 print(t6lge)
+'''
 '''
 #ÜL2.2
 import turtle
@@ -62,3 +68,4 @@ while g==arv:
     g += 1
     if g==arv:
         t.done()
+'''
