@@ -1,5 +1,5 @@
 #Georg Lukk IS22
-
+'''
 #ÜL1
 sammude_list=[]
 f = open('sammud.txt')#teeb .txt faili lahti
@@ -26,9 +26,10 @@ print("kõige väiksem sammude arv oli",minimum,"ja see on ",päev,"päev"".")#p
 maximum = max(sammude_list)
 päev2 = sammude_list.index(maximum)
 print("kõige suurem sammude arv oli",maximum,"ja see on ",päev2,"päev"".")#prindib suurima arvu
-
 '''
-#ÜL2f = open('sammud.txt')#teeb .txt faili lahti
+'''
+#ÜL2
+f = open('kilpkonn.txt')#teeb .txt faili lahti
 from googletrans import *
 trans = Translator
 k2sud = []
@@ -49,23 +50,27 @@ f = open('kilpkonn.txt')#teeb .txt faili lahti
 for rida in f:
     kilpkonn.append(rida.strip())#loob iga failis olevale reale listis indeksi koha
 f.close()#paneb kinni faili
-print(kilpkonn)
 r=0
 arv=input("Sisestage kujundite arv: ")
 g=0
 t=turtle
-while r<=(len(kilpkonn)):
-    kilpkonn[0]==t.forward(100)
+
+while r<=int(arv):
+    kilpkonn[0] == t.forward(100)
     kilpkonn[1] == t.right(120)
     kilpkonn[2] == t.forward(100)
     kilpkonn[3] == t.right(120)
     kilpkonn[4] == t.forward(100)
-    r+=1
-    g+=1
+    break
+def joonista (self):
+    kilpkonn[0]
+    kilpkonn[1]
+    kilpkonn[2]
+    kilpkonn[3]
+    kilpkonn[4]
 
-while g==arv:
-    print(kilpkonn)
-    g += 1
-    if g==arv:
-        t.done()
+for i in range(int(arv)):
+    joonista
+
+t.done()
 
