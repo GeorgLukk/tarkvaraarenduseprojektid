@@ -283,9 +283,9 @@ pygame.init()
 white = (255, 255, 255)
 yellow = (255, 255, 102)
 black = (0, 0, 0)
-red = (213, 50, 80)
+red = (213, 0, 0)
 green = (0, 255, 0)
-blue = (50, 153, 213)
+blue = (31, 203, 175)
 
 dis_width = 640
 dis_height = 640
@@ -298,12 +298,12 @@ clock = pygame.time.Clock()
 snake_block = 20
 snake_speed = 15
 
-font_style = pygame.font.SysFont("bahnschrift", 25)
-score_font = pygame.font.SysFont("comicsansms", 35)
+font_style = pygame.font.SysFont("dina", 25)
+score_font = pygame.font.SysFont("dina", 45)
 
 
 def Your_score(score):
-    value = score_font.render("Your Score: " + str(score), True, yellow)
+    value = score_font.render("Your Score: " + str(score), True, red)
     dis.blit(value, [0, 0])
 
 
@@ -330,8 +330,8 @@ def gameLoop():
     snake_List = []
     Length_of_snake = 1
 
-    foodx = round(random.randrange(0, dis_width - snake_block) / 20.0) * 10.0
-    foody = round(random.randrange(0, dis_height - snake_block) / 20.0) * 10.0
+    foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 20.0
+    foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 20.0
 
     while not game_over:
 
@@ -370,9 +370,12 @@ def gameLoop():
             game_close = True
         x1 += x1_change
         y1 += y1_change
-        bg_shop = pygame.image.load("img/taustt.jpg")
-        dis.fill(tausttt)
-        pygame.draw.rect(dis, black, [foodx, foody, snake_block, snake_block])
+        #loob tausta ning lisab selle sinna
+        tausttt = pygame.image.load("img/taustt.jpg")
+        tausttt = pygame.transform.scale(tausttt, [640, 640])
+        dis.blit(tausttt, [0, 0])
+
+        pygame.draw.rect(dis, blue, [foodx, foody, snake_block, snake_block])
         snake_Head = []
         snake_Head.append(x1)
         snake_Head.append(y1)
@@ -390,8 +393,8 @@ def gameLoop():
         pygame.display.update()
 
         if x1 == foodx and y1 == foody:
-            foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
-            foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
+            foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 20.0
+            foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 20.0
             Length_of_snake += 1
 
         clock.tick(snake_speed)
