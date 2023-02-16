@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/proovid/proovitud koodid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pygame2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proovid/vanad koodid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_9_2023_12_00_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_9_2023_12_00_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kilpkonn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/kilpkonn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pygame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +385,19 @@
       <option name="presentableId" value="LOCAL−00043" />
       <updated>1676453498198</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL−00044" summary="test">
+      <created>1676462651945</created>
+      <option name="number" value="LOCAL−00044" />
+      <option name="presentableId" value="LOCAL−00044" />
+      <updated>1676462651945</updated>
+    </task>
+    <task id="LOCAL−00045" summary="test">
+      <created>1676462667133</created>
+      <option name="number" value="LOCAL−00045" />
+      <option name="presentableId" value="LOCAL−00045" />
+      <updated>1676462667133</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

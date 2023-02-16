@@ -264,7 +264,6 @@ pygame.display.set_caption("Random ruudud")#akna nimi
 screen.fill([204, 255, 204])#paneb taustavärvi
 pygame.draw.rect(screen, [222, 222, 222], [0, 0, 30, 30], 2)#joonistab ristküliku
 
-
 pygame.display.flip()#värskendab akna
 #alustab tsükli !!!!!!!!!!!!!!!!!!!
 run = True
@@ -296,7 +295,7 @@ pygame.display.set_caption('Snake Game')
 
 clock = pygame.time.Clock()
 
-snake_block = 10
+snake_block = 20
 snake_speed = 15
 
 font_style = pygame.font.SysFont("bahnschrift", 25)
@@ -371,8 +370,9 @@ def gameLoop():
             game_close = True
         x1 += x1_change
         y1 += y1_change
-        dis.fill(white)
-        pygame.draw.rect(dis, white, [foodx, foody, snake_block, snake_block])
+        bg_shop = pygame.image.load("img/taustt.jpg")
+        dis.fill(tausttt)
+        pygame.draw.rect(dis, black, [foodx, foody, snake_block, snake_block])
         snake_Head = []
         snake_Head.append(x1)
         snake_Head.append(y1)
@@ -390,8 +390,8 @@ def gameLoop():
         pygame.display.update()
 
         if x1 == foodx and y1 == foody:
-            foodx = round(random.randrange(0, dis_width - snake_block) / 20.0) * 10.0
-            foody = round(random.randrange(0, dis_height - snake_block) / 20.0) * 10.0
+            foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
+            foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
             Length_of_snake += 1
 
         clock.tick(snake_speed)
