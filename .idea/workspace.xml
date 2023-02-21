@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/snake game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_02_2023_09_02_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_02_2023_09_02__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pygame2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame2.py" afterDir="false" />
     </list>
@@ -400,7 +403,13 @@
       <option name="presentableId" value="LOCAL−00046" />
       <updated>1676535455319</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL−00047" summary="test">
+      <created>1676536597605</created>
+      <option name="number" value="LOCAL−00047" />
+      <option name="presentableId" value="LOCAL−00047" />
+      <updated>1676536597605</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

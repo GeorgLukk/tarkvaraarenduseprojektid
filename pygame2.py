@@ -261,9 +261,27 @@ import colorsys
 pygame.init()
 screen = pygame.display.set_mode([640, 480])#akna suurus
 pygame.display.set_caption("Random ruudud")#akna nimi
-screen.fill([204, 255, 204])#paneb taustavärvi
-pygame.draw.rect(screen, [222, 222, 222], [0, 0, 30, 30], 2)#joonistab ristküliku
+screen.fill([0, 255, 0])#paneb taustavärvi
+class ruut:
+    def __init__(self, color, sizea, sizeb):#määrab self
+        self.color = color
+        self.sizea = sizea
+        self.sizeb = sizeb
 
+    #Defineerime make_square
+    def tee_ruut(self):
+        y = 1 #algkoordinaat 1
+        for i in range(35):
+            x = 1 #algkoordinaat 2
+            for j in range(38):
+                pygame.draw.rect(screen, self.color, [x, y, self.sizea, self.sizeb])
+                #määrab funktsioonile suuruse kus see toimib, värvi[x ja y , selfsize ehk külje suurus ja teise külje suurus
+                x += 18#liidab kordinaatidele 18 juurde et see hakkaks õigest kohast teisi ruute joonistama
+            y += 18#liidab kordinaatidele 18 juurde et see hakkaks õigest kohast teisi ruute joonistama
+
+
+ruut.tee_ruut(ruut([255,0,0], 15, 15))
+#käivitab funksiooni mille tegime ning annab sellele värvi ning külgede suurused
 pygame.display.flip()#värskendab akna
 #alustab tsükli !!!!!!!!!!!!!!!!!!!
 run = True
@@ -273,6 +291,7 @@ while run: #teeb tsükli
             run = False
 pygame.quit()
 '''
+
 #Snake game
 import pygame
 import time
