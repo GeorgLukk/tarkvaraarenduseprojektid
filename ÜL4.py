@@ -29,6 +29,7 @@ for i in range (10):
 #piltide lisamine
 tee = pygame.image.load("img/tee.jpg")
 s_auto = pygame.image.load("img/sauto.png")
+s_auto2 = pygame.image.load("img/sauto.png")
 p_auto = pygame.image.load("img/pauto.png")
 tee = pygame.transform.scale(tee, [640, 480])
 s_auto = pygame.transform.scale(s_auto, [70, 100])
