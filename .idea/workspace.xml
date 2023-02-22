@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2023_09_02_[Changes]/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2023_09_02_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2023_09_02__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ÜL4 harjutamine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ÜL4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/img/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake game.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +407,19 @@
       <option name="presentableId" value="LOCAL−00047" />
       <updated>1676536597605</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL−00048" summary="test">
+      <created>1677050733711</created>
+      <option name="number" value="LOCAL−00048" />
+      <option name="presentableId" value="LOCAL−00048" />
+      <updated>1677050733711</updated>
+    </task>
+    <task id="LOCAL−00049" summary="test">
+      <created>1677050767398</created>
+      <option name="number" value="LOCAL−00049" />
+      <option name="presentableId" value="LOCAL−00049" />
+      <updated>1677050767398</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
