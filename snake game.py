@@ -1,4 +1,7 @@
 #Snake game
+#https://geekflare.com/snake-game-in-python
+#https://www.scaler.com/topics/snake-game-in-python
+#https://docs.replit.com/tutorials/python/build-snake-with-pygame
 import pygame
 import time
 import random
@@ -22,8 +25,9 @@ clock = pygame.time.Clock()
 
 snake_block = 20
 snake_speed = 15
+high_score = 0
 
-font_style = pygame.font.SysFont("dina", 45)
+font_style = pygame.font.SysFont("dina", 35)
 score_font = pygame.font.SysFont("dina", 45)
 
 suurus = dis
