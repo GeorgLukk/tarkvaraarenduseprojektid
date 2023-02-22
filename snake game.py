@@ -23,7 +23,7 @@ clock = pygame.time.Clock()
 snake_block = 20
 snake_speed = 15
 
-font_style = pygame.font.SysFont("dina", 25)
+font_style = pygame.font.SysFont("dina", 45)
 score_font = pygame.font.SysFont("dina", 45)
 
 suurus = dis
@@ -56,8 +56,8 @@ def gameLoop():
     snake_List = []
     Length_of_snake = 1
 
-    foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
-    foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
+    foodx = round(random.randrange(0, dis_width - snake_block) / 20.0) * 20.0
+    foody = round(random.randrange(0, dis_height - snake_block) / 20.0) * 20.0
 
     while not game_over:
 
@@ -120,8 +120,8 @@ def gameLoop():
         pygame.display.update()
 
         if x1 == foodx and y1 == foody:
-            foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
-            foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
+            foodx = round(random.randrange(0, dis_width - snake_block) / 20.0) * 20.0
+            foody = round(random.randrange(0, dis_height - snake_block) / 20.0) * 20.0
             Length_of_snake += 1
 
         clock.tick(snake_speed)
