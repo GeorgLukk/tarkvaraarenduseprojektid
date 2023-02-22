@@ -1,9 +1,15 @@
-import pygame,random
+import pygame
+import random
+import sys
+
 pygame.init()
 screenX = 640
 screenY = 480
 screen = pygame.display.set_mode([screenX, screenY])
 pygame.display.set_caption("Animeerimine")
+clock = pygame.time.Clock()
+
+
 
 teeX,teeY = 0,400
 posX,posY = 330, 330
@@ -25,8 +31,19 @@ s_auto = pygame.transform.scale(s_auto, [70, 100])
 p_auto = pygame.transform.scale(p_auto, [70, 100])
 screen.blit(tee,[0,0])
 screen.blit(s_auto,[100,100])
-screen.blit(p_auto,[320,240])
 
+
+
+gameover = False
+while not gameover:
+    clock.tick(120)
+    for i in range(len(coords)):
+        screen.blit(p_auto, [320, 240])
+        coords[i][1] += coords[i][2]
+        # kui jõuab alla, siis muudame ruudu alguspunkti
+        if coords[i][1] > screenY:#kui ruudu koordinaat on suurem kui screenY siis see teeb järgmisi asju
+            coords[i][1] = random.randint(-40, -10)#annab ruudule uue asukoha
+            coords[i][0] = random.randint(0, screenX)
 
 
 
