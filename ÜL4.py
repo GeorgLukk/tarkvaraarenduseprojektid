@@ -33,7 +33,7 @@ p_korX, p_korY = 300, 390  #punase koordinaadid
 gameover = False
 while not gameover:  #on selles loopis niikaua kui m'ng ei ole l'bi
     clock.tick(120)  # FPS
-#anka sulgemine ristist
+    #anka sulgemine ristist
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
@@ -54,7 +54,7 @@ while not gameover:  #on selles loopis niikaua kui m'ng ei ole l'bi
     p_korY += p_kiirus  # auto liigutamine
 
     # skoori kuvamine
-    screen.blit(pygame.font.Font(None, 30).render(f"Skoor: {score}", True, [255, 255, 255]), [10, 20])
+    screen.blit(pygame.font.Font(None, 40).render(f"Skoor: {score}", True, [0,0,0]), [10, 20])
 
     # autode positsiooni taastamine
     #kui sinised autod jõuavad alla siis viiakse need ülesse tagasi
@@ -79,23 +79,27 @@ while not gameover:  #on selles loopis niikaua kui m'ng ei ole l'bi
         p_korX += 5  # liigutame autot paremale
 
     # mängu lõpp, kui sinine auto puudutab punast
-    if p_korY + 55 >= s_korY >= p_korY - 55:  # kui sinine ja punane auto on samal Y kordinaadil
-        if p_korX + 50 >= s_korX >= p_korX - 50:  # kui sinine ja punane auto on ka samal X kordinaadil
+    #Y koordinaatidel
+    if p_korY + 55 >= s_korY >= p_korY - 55:
+        #X koordinaaidel
+        if p_korX + 50 >= s_korX >= p_korX - 50:
             gameover = True #mäng saab läbi
-
-    if p_korY + 55 >= s2_korY >= p_korY - 55:  #kui teine sinine ja punane auto on samal Y kordinaadil
-        if p_korX + 50 >= s2_korX >= p_korX - 50:  #kui teine sinine ja punane auto on ka samal X kordinaadil
+    # Y koordinaatidel
+    if p_korY + 55 >= s2_korY >= p_korY - 55:
+        # X koordinaaidel
+        if p_korX + 50 >= s2_korX >= p_korX - 50:
             gameover = True #mäng saab läbi
 
     pygame.display.flip()  # värksendab ekraani
 while True:
     if gameover:  # kui mäng on läbi
             # prindime ekraanile "Game over"
-        screen.blit(pygame.font.Font(None, 50).render("Game over!", True, [255, 255, 255]), [230, 300])
+        screen.blit(pygame.font.Font(None, 50).render("Game over!", True, [0,0,0]), [230, 300])
             # prindime ekraanile Sinu skoor (ning saadud skoor)
-        screen.blit(pygame.font.Font(None, 50).render(f"Skoor: {score}", True, [255, 255, 255]),
-                    [240, 200])
+        screen.blit(pygame.font.Font(None, 50).render(f"Sinu Skoor: {score}", True, [0,0,0]),
+                    [210, 200])
         pygame.display.flip()  # värksendab ekraani
-    for event in pygame.event.get():  # ootame sündmust
-        if event.type == pygame.QUIT:  # kui ekraan suletakse
-            sys.exit()  # lõpetame mängu
+    #ristist kinni panemis tsükkel
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            sys.exit()

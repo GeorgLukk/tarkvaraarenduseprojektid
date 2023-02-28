@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/ss.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/igav hakkas/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/igav hakkas/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/igav hakkas/img.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ÜL4.py" beforeDir="false" afterPath="$PROJECT_DIR$/ÜL4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -418,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677095592356</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="test">
+      <created>1677534717739</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1677534717739</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
