@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/PingPong1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong.py" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Surface and rect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Surface and rect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ÜL4 harjutamine.py" beforeDir="false" afterPath="$PROJECT_DIR$/ÜL4 harjutamine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/img/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake game.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,12 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674206124891</updated>
-    </task>
-    <task id="LOCAL−00009" summary="test">
-      <created>1674819824875</created>
-      <option name="number" value="LOCAL−00009" />
-      <option name="presentableId" value="LOCAL−00009" />
-      <updated>1674819824875</updated>
     </task>
     <task id="LOCAL−00010" summary="test">
       <created>1674819878079</created>
@@ -422,7 +414,13 @@
       <option name="presentableId" value="LOCAL−00057" />
       <updated>1678099254198</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL−00058" summary="test">
+      <created>1678109698248</created>
+      <option name="number" value="LOCAL−00058" />
+      <option name="presentableId" value="LOCAL−00058" />
+      <updated>1678109698248</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

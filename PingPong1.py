@@ -58,14 +58,18 @@ while not gameover:
     # kui puudub ääri, siis muudab suunda
     if posX > screenX - ball.get_rect().width or posX < 0:
         speedX = -speedX
-#kui palli positsioon on suurem kui screenX siis see läheb kuhugi muusse suunda
+    #kui palli positsioon on suurem kui screenX siis see läheb kuhugi muusse suunda
     if posY > screenY - ball.get_rect().height or posY < 0:
         speedY = -speedY
-    if posY > screenY - pad.get_rect().width or pposY < 0:
+    if posY > screenY - ball.get_rect().width or pposY < 0:
         speedY = -speedY
-# kui palgi positsioon on suurem kui screenY siis see läheb vasakule ja paremale
+    # kui palgi positsioon on suurem kui screenY siis see läheb vasakule ja paremale
     if pposX > screenX - pad.get_rect().width or pposX < 0:
         aspeedX = -aspeedX
+
+
+
+
 
     pygame.display.flip()#värskendab ekraani
     screen.fill(black)#täidab tausta valitud värviga
