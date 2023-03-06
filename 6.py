@@ -40,8 +40,28 @@ print(a!= b and b>10)#prindib viimase kui on and
 print(b== a or a>=0)#prindib True
 #9
 from tkinter import *
+black=(0,0,0)
 raam = Tk()
-raam.title("Tühi tahvel")
-tahvel= Canvas(raam,width=600)
 
-tahvel
+raam.title("Tihi tahvel")
+tahvel = Canvas(raam, width=600)
+
+tahvel.create_rectangle(50,70,100,100, width=2, outline="blue")
+tahvel.create_text(50,50, text="Tere!")
+
+tahvel.create_polygon(100,100,150,150,200,100, fill="red" ,outline="black")
+
+tahvel .pack()
+raam.mainloop()
+
+raam = Tk()
+
+raam.title("Tühi tahvel")
+tahvel = Canvas(raam, width=600)
+
+tahvel.create_rectangle(50,70,100,100, width=2, outline="blue")
+tahvel.create_text(50,50, text="Tere!")
+
+tahvel.create_polygon(100,100,150,150,200,100, fill="red" ,outline="black")
+tahvel.pack()
+raam.mainloop()
