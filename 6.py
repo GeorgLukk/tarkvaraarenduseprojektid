@@ -36,8 +36,9 @@ print(a>b)#kui küsitakse <,>,= siis antakse vastuseks kas True või False
 #8
 a=10
 b=2
-print(a!= b and b>10)#prindib viimase kui on and
-print(b== a or a>=0)#prindib True
+#
+print(a!= b and b>10)#prindib viimase kui on and siis peavad olema mõlemad True et tuleks välja True
+print(b== a or a>=0)#võrdleb neid ja kui 1 on True siis väljastatakse True
 #9
 from tkinter import *
 #loob raami
