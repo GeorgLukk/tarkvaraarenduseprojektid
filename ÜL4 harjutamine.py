@@ -138,7 +138,7 @@ while not gameover:
 
 pygame.quit()
 '''
-'''
+
 import pygame, sys
 
 pygame.init()
@@ -198,6 +198,7 @@ while not gameover:
     screen.fill(black)
 
 pygame.quit()
+
 '''
 #RUUTUDE ANIMEERIMINE
 
@@ -262,3 +263,4 @@ while not gameover:
     screen.fill(black)
 pygame.quit()
 
+'''
