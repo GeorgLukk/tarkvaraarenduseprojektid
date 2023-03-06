@@ -26,8 +26,8 @@ print("Tere,"[0],nimi1[-5],nimi2,"!")#väljastab T P türi kuna Tere 0 indeks + 
 #6
 a="A"
 b=1
-while b<3:
-    print(a,end=" ")#kuna seal on end mis viib selle tsükli lõppu siis see annab b'le 2 esimesle tsüklis
+while b<3:#tsükkel mis kestab niikaua kui b on väiksem kui b
+    print(a,end=" ")#tühik tuleb lõppu mitte vahele ehk end mis viib tühiku Lõppu
     b+=1
 #7
 a=10
