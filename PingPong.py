@@ -53,6 +53,14 @@ while not gameover:
     posX += speedX
     posY += speedY
 
+    key = pygame.key.get_pressed()  # kui vajutatakse klahvi
+    if key[pygame.K_LEFT]:  # vasakut
+        pposX -= 5  # liigutame autot vasakule
+    if key[pygame.K_RIGHT]:  # paremat
+        pposX += 5  # liigutame autot paremale
+
+
+
     # kui puudub ääri, siis muudab suunda
     if posX > screenX - ball.get_rect().width or posX < 0:
         speedX = -speedX
