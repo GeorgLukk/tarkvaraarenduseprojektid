@@ -68,6 +68,11 @@ while not gameover:
     if posY > screenY - ball.get_rect().height or posY < 0:
         speedY = -speedY
 # kui palli positsioon on suurem kui screenY siis see läheb kuhugi muusse suunda
+    if posX > pposX - ball.get_rect().width or posX < 0:
+        speedX = -speedX
+        # kui palli positsioon on suurem kui screenX siis see läheb kuhugi muusse suunda
+    if posY > pposY - ball.get_rect().height or posY < 0:
+        speedY = -speedY
     # graafika kuvamine ekraanil
     pygame.display.flip()
     screen.fill(black)
