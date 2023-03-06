@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/PingPong.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Surface and rect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_02_2023_09_14_[Changes]/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_02_2023_09_14_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_02_2023_09_14__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/img/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sauto.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sauto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ÜL4 harjutamine.py" beforeDir="false" afterPath="$PROJECT_DIR$/ÜL4 harjutamine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ÜL4.py" beforeDir="false" afterPath="$PROJECT_DIR$/ÜL4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +121,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674206124891</updated>
+    </task>
+    <task id="LOCAL−00006" summary="test">
+      <created>1674218113742</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1674218113742</updated>
     </task>
     <task id="LOCAL−00007" summary="test">
       <created>1674218263097</created>
@@ -419,13 +417,7 @@
       <option name="presentableId" value="LOCAL−00054" />
       <updated>1677057920387</updated>
     </task>
-    <task id="LOCAL−00055" summary="test">
-      <created>1677058387228</created>
-      <option name="number" value="LOCAL−00055" />
-      <option name="presentableId" value="LOCAL−00055" />
-      <updated>1677058387228</updated>
-    </task>
-    <option name="localTasksCounter" value="56" />
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

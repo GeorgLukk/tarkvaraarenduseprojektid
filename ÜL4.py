@@ -1,62 +1,105 @@
 import pygame
 import random
 import sys
-import time
+
 
 pygame.init()
-
-screenX = 640
-screenY = 480
-screen = pygame.display.set_mode([screenX, screenY])
+#ekraani seaded ja skoor
+screen = pygame.display.set_mode([640, 480])
 pygame.display.set_caption("m2ng")
 clock = pygame.time.Clock()
-
-white = [255,255,255]
-
-teeX,teeY = 300,300
-posX,posY = 330, 330
-tee_s = pygame.surface([teeX,teeY])
-speedX, speedY = 3, 3
-#koordinaadid
-coords = []
-for i in range (10):
-    posX = random.randint(1,posX)
-    posY = random.randint(1,posY)
-    speed = random.randint(1, 3)
-    coords.append([posX, posY,speed])
+score = 0
 
 
 #piltide lisamine
 tee = pygame.image.load("img/tee.jpg")
+tee = pygame.transform.scale(tee, [640, 480])
+tee_korX = 0
 s_auto = pygame.image.load("img/sauto.png")
 s_auto2 = pygame.image.load("img/sauto.png")
 p_auto = pygame.image.load("img/pauto.png")
-tee = pygame.transform.scale(tee, [640, 480])
-s_auto = pygame.transform.scale(s_auto, [70, 100])
-p_auto = pygame.transform.scale(p_auto, [70, 100])
-screen.blit(tee,[0,0])
 
 
+s_kiirus = 3  #sinise kiirus
+p_kiirus = 0  #punase kiirus
+#siniste Y koordinaadid
+s_korY = random.randint(0, 100)
+s2_korY = random.randint(0, 100)
+#siniste X koordinaadid
+s_korX = random.randint(300, 460)
+s2_korX = random.randint(130, 460)
+p_korX, p_korY = 300, 390  #punase koordinaadid
 
 gameover = False
-while not gameover:
-
-    clock.tick(120)
-    events = pygame.event.get()
-    for i in pygame.event.get():
-        if i.type == pygame.QUIT:
+while not gameover:  #on selles loopis niikaua kui m'ng ei ole l'bi
+    clock.tick(120)  # FPS
+    #anka sulgemine ristist
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
             sys.exit()
 
+    # taustapildi lisamine
+    screen.blit(tee, (0, 0))
 
-    for i in range(len(coords)):
-        pygame.draw.rect(tee_s, white, [coords[i][0], coords[i][1], 20, 20])
-        coords[i][1] += coords[i][2]
-        # kui jõuab alla, siis muudame ruudu alguspunkti
-        if coords[i][1] > screenY:#kui ruudu koordinaat on suurem kui screenY siis see teeb järgmisi asju
-            coords[i][1] = random.randint(-40, -10)#annab ruudule uue asukoha
-            coords[i][0] = random.randint(0, screenX)
+    #siniste lisamine (pilt(kooridnaat1,kooridanaat2))
+    screen.blit(s_auto, (s_korX, s_korY))
+    screen.blit(s_auto2, (s2_korX, s2_korY))
 
+    #siniste autode liigutamine ning + nendele kiirustele et see liiguks erinevatel kiirustel
+    s_korY += s_kiirus + 0.6
+    s2_korY += s_kiirus + 1
 
-pygame.display.flip()
+    # punase auto lisamine
+    screen.blit(p_auto, (p_korX, p_korY))
+    p_korY += p_kiirus  # auto liigutamine
 
-pygame.quit()
+    # skoori kuvamine
+    screen.blit(pygame.font.Font(None, 40).render(f"Skoor: {score}", True, [0,0,0]), [10, 20])
+
+    # autode positsiooni taastamine
+    #kui sinised autod jõuavad alla siis viiakse need ülesse tagasi
+    if s_korY >= 480:
+        s_korY = -120
+        score += 1
+        s_korX = random.randint(130, 280)
+
+    if s2_korY >= 480:
+        s2_korY = -120
+        score += 1
+        s2_korX = random.randint(300, 480)
+
+    if p_korY >= 480:
+        p_korY = -120
+
+    # punase auto liigutamine noole nuppudega
+    key = pygame.key.get_pressed()  # kui vajutatakse klahvi
+    if key[pygame.K_LEFT]:  # vasakut
+        p_korX -= 5  # liigutame autot vasakule
+    if key[pygame.K_RIGHT]:  #paremat
+        p_korX += 5  # liigutame autot paremale
+
+    # mängu lõpp, kui sinine auto puudutab punast
+    #Y koordinaatidel
+    if p_korY + 55 >= s_korY >= p_korY - 55:
+        #X koordinaaidel
+        if p_korX + 50 >= s_korX >= p_korX - 50:
+            gameover = True #mäng saab läbi
+    # Y koordinaatidel
+    if p_korY + 55 >= s2_korY >= p_korY - 55:
+        # X koordinaaidel
+        if p_korX + 50 >= s2_korX >= p_korX - 50:
+            gameover = True #mäng saab läbi
+
+    pygame.display.flip()  # värksendab ekraani
+while True:
+    if gameover:  # kui mäng on läbi
+            # prindime ekraanile "Game over"
+        screen.blit(pygame.font.Font(None, 50).render("Game over!", True, [0,0,0]), [230, 300])
+            # prindime ekraanile Sinu skoor (ning saadud skoor)
+        screen.blit(pygame.font.Font(None, 50).render(f"Sinu Skoor: {score}", True, [0,0,0]),
+                    [210, 200])
+        pygame.display.flip()  # värksendab ekraani
+    #ristist kinni panemis tsükkel
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            sys.exit()
