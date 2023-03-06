@@ -21,23 +21,23 @@ pygame.display.set_caption("Animeerimine")
 screen.fill(black)
 clock = pygame.time.Clock()
 
-# graafika laadimine
+# palli ja puulaua piltide ja suuruste lisamine
 ball = pygame.image.load("img/ball.png")
-
+ball = pygame.transform.scale(ball, [20,20])
+pad = pygame.image.load("img/pad.png")
+pad = pygame.transform.scale(pad, [120,20])
 # kiirus ja asukoht
 posX, posY = 0, 0
-speedX, speedY = 3, 4
+speedX, speedY = 3, 3
 pposX = 320
 pposY = 400
 
-pad = pygame.Rect(pposX, pposY, 120, 20)
-padpilt = pygame.image.load("img/pad.png")
-padpilt = pygame.transform.scale(padpilt, [pad.width, pad.height])
 
 
-gameover = False
+a=1
 #alustab mängu tsükli ning lisab selle sisse mängu komponendid
-while not gameover:
+#kuna selles mängus polnud gameoverit siis
+while a<3:
     # fps
     clock.tick(60)
     # mängu sulgemine ristist
@@ -48,7 +48,7 @@ while not gameover:
 
     # pildi lisamine ekraanile
     screen.blit(ball, (posX, posY))
-    screen.blit(padpilt, (pposX, pposY))
+    screen.blit(pad, (pposX, pposY))
 
     posX += speedX
     posY += speedY
@@ -68,13 +68,13 @@ while not gameover:
     if posY > screenY - ball.get_rect().height or posY < 0:
         speedY = -speedY
 # kui palli positsioon on suurem kui screenY siis see läheb kuhugi muusse suunda
-    if posX > pposX - ball.get_rect().width or posX < 0:
+    if posX > pposX - ball.get_rect().width or pposX < 0:
         speedX = -speedX
         # kui palli positsioon on suurem kui screenX siis see läheb kuhugi muusse suunda
-    if posY > pposY - ball.get_rect().height or posY < 0:
+    if posY > pposY - ball.get_rect().height or pposY < 0:
         speedY = -speedY
 
     pygame.display.flip()#värskendab ekraani
-    screen.fill(black)#
+    screen.fill(black)#täidab tausta valitud värviga
 
 pygame.quit()

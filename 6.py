@@ -15,6 +15,7 @@ a= "Tere"
 b= "Tore"
 lause = a*3+"\\" + b #korrutab a'd 3 korda lisab 2 \ märki millelt üks kaob ning b
 #\\ see jagab \ \'ga ning sellepärast jääbgi näha 1 \ märk
+#kuna \ peab olema antud enda asi ning sellel korral anti \ ehk jagamine
 print(lause) #väljastab eelnevalt loodud lause
 #4
 nimi="loomariik"
@@ -48,7 +49,7 @@ raam.title("Tühi tahvel")
 #loob tahvli raami sisse
 tahvel = Canvas(raam, width=600)
 #loob ristküliku tahvli piiridesse
-tahvel.create_rectangle(50,70,100,100, width=2, outline="blue")#50 alguspunkt 70 on 2 punkt 100 3 punkt
+tahvel.create_rectangle(50,70,100,100, width=2, outline="blue")#50 alguspunkt 70 on 2 punkt 100 3 punkt ning tene 100 4 punkt
 #kirjutab Tere 50,50 koordinaatidele
 tahvel.create_text(50,50, text="Tere!")
 #teeb hylknurga mille külgede pikkused on need numbrid

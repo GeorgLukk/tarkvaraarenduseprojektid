@@ -189,7 +189,7 @@ while not gameover:
     # kui puudub ääri, siis muudab suunda
     if posX > screenX - ball.get_rect().width or posX < 0:
         speedX = -speedX
-#kui palli positsioon on suurem kui screenX siis see läheb kuhugi muusse suunda
+    #kui palli positsioon on suurem kui screenX siis see läheb kuhugi muusse suunda
     if posY > screenY - ball.get_rect().height or posY < 0:
         speedY = -speedY
 # kui palli positsioon on suurem kui screenY siis see läheb kuhugi muusse suunda

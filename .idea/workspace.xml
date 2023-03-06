@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test" />
+    <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/PingPong1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong.py" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Surface and rect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Surface and rect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ÜL4 harjutamine.py" beforeDir="false" afterPath="$PROJECT_DIR$/ÜL4 harjutamine.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,14 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;X:/IS22/robert/pythonProject1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "X:/IS22/robert/pythonProject1",
+    "settings.editor.selected.configurable": "settings.sync"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="järjendid ja for-tsükkel konspekt" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject1" />
@@ -119,18 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674206124891</updated>
-    </task>
-    <task id="LOCAL−00007" summary="test">
-      <created>1674218263097</created>
-      <option name="number" value="LOCAL−00007" />
-      <option name="presentableId" value="LOCAL−00007" />
-      <updated>1674218263097</updated>
-    </task>
-    <task id="LOCAL−00008" summary="test">
-      <created>1674819752663</created>
-      <option name="number" value="LOCAL−00008" />
-      <option name="presentableId" value="LOCAL−00008" />
-      <updated>1674819752663</updated>
     </task>
     <task id="LOCAL−00009" summary="test">
       <created>1674819824875</created>
@@ -415,7 +410,19 @@
       <option name="presentableId" value="LOCAL−00055" />
       <updated>1678098693429</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL−00056" summary="test">
+      <created>1678099154654</created>
+      <option name="number" value="LOCAL−00056" />
+      <option name="presentableId" value="LOCAL−00056" />
+      <updated>1678099154654</updated>
+    </task>
+    <task id="LOCAL−00057" summary="test">
+      <created>1678099254198</created>
+      <option name="number" value="LOCAL−00057" />
+      <option name="presentableId" value="LOCAL−00057" />
+      <updated>1678099254198</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
