@@ -1,5 +1,5 @@
 import pygame, sys
-
+from pygame import mixer
 pygame.init()
 
 # värvid
@@ -21,7 +21,11 @@ pygame.display.set_caption("Ping-pong")
 screen.fill(black)
 clock = pygame.time.Clock()
 score = 0
-l6pp = "Kaotasid"
+pygame.mixer.music.load('cave themeb4.ogg')
+pygame.mixer.music.play(-1)
+taust = pygame.image.load("obrin-7.png")
+taust = pygame.transform.scale(taust, [640, 640])
+
 
 # kiirus ja asukoht
 posX, posY = 0, 0       #palli algne positsioon
@@ -31,12 +35,13 @@ pposX = 300   #palgi algne positsioon
 pposY = screenY/1.2
 
 # palli ja puulaua piltide ja suuruste lisamine
-ball = pygame.image.load("img/ball.png")
+ball = pygame.image.load("ball.png")
 ball = pygame.transform.scale(ball, [20,20])
 ball_rect = pygame.Rect(posX,posY,20,20)
-pad = pygame.image.load("img/pad.png")
+pad = pygame.image.load("pad.png")
 pad = pygame.transform.scale(pad, [120,20])
 pad_rect = pygame.Rect(pposX,pposY,120,20)
+
 
 #helid
 #puute_heli=
@@ -54,10 +59,13 @@ while not gameover:
 
 
     # pildi lisamine ekraanile
+    screen.blit(taust, [0, 0])
     screen.blit(ball, (posX, posY))
     screen.blit(pad, (pposX, pposY))
     pall = pygame.Rect(posX,posY,20,20)
     pad_rect = pygame.Rect(pposX, pposY, 120, 20)
+
+
 
     #palli liikuma panemine
     posX += speedX
@@ -92,9 +100,6 @@ while not gameover:
     if pall.colliderect(pad_rect) and speedY > 0:
         speedY = -speedY
         score +=1
-    if gameover == True:
-        screen.blit(pygame.font.Font(None, 30).render(f"Sa {l6pp}", True, [255, 255, 255]),
-                    [10, 20])  # skoori kuvamine
 
     pygame.display.flip()#värskendab ekraani
     screen.fill(lGreen)#täidab tausta valitud värviga

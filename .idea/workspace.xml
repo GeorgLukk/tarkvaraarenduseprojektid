@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PingPong2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingPong2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pingpong-ÜL6/PingPong2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake game.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\IS22\robert\pythonProject1\pingpong-ÜL6" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="järjendid ja for-tsükkel konspekt" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject1" />
@@ -123,12 +128,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674206124891</updated>
-    </task>
-    <task id="LOCAL−00011" summary="test">
-      <created>1674820481247</created>
-      <option name="number" value="LOCAL−00011" />
-      <option name="presentableId" value="LOCAL−00011" />
-      <updated>1674820481247</updated>
     </task>
     <task id="LOCAL−00012" summary="test">
       <created>1674820556303</created>
@@ -419,7 +418,13 @@
       <option name="presentableId" value="LOCAL−00059" />
       <updated>1678110302357</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL−00060" summary="test">
+      <created>1678178073783</created>
+      <option name="number" value="LOCAL−00060" />
+      <option name="presentableId" value="LOCAL−00060" />
+      <updated>1678178073783</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
