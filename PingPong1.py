@@ -22,17 +22,20 @@ screen.fill(black)
 clock = pygame.time.Clock()
 score = 0
 
+
+# kiirus ja asukoht
+posX, posY = 0, 0       #palli algne positsioon
+speedX, speedY = 3, 4   #palli x ja y kiirused
+aspeedX, aspeedY = 3,0  #palgi x ja y kiirused
+pposX,pposY = 300,400   #palgi algne positsioon
+
 # palli ja puulaua piltide ja suuruste lisamine
 ball = pygame.image.load("img/ball.png")
 ball = pygame.transform.scale(ball, [20,20])
+ball_rect = pygame.Rect(posX,posY,20,20)
 pad = pygame.image.load("img/pad.png")
 pad = pygame.transform.scale(pad, [120,20])
-
-# kiirus ja asukoht
-posX, posY = 0, 0#palli algne positsioon
-speedX, speedY = 3, 4#palli x ja y kiirused
-aspeedX, aspeedY = 3,0#palgi x ja y kiirused
-pposX,pposY = 320,400#palgi algne positsioon
+pad_rect = pygame.Rect(pposX,pposY,120,20)
 
 
 gameover = False
@@ -49,27 +52,35 @@ while not gameover:
     # pildi lisamine ekraanile
     screen.blit(ball, (posX, posY))
     screen.blit(pad, (pposX, pposY))
+    pall = pygame.Rect(posX,posY,20,20)
+    pad_rect = pygame.Rect(pposX, pposY, 120, 20)
 
+    # palli liikuma panemine
     posX += speedX
     posY += speedY
     pposX += aspeedX
     pposY += aspeedY
 
+    #Score
+    screen.blit(pygame.font.Font(None, 30).render(f"Score: {score}", True, [255, 255, 255]),
+                [10, 20])  # skoori kuvamine
     # kui puudub ääri, siis muudab suunda
     if posX > screenX - ball.get_rect().width or posX < 0:
-        speedX = -speedX
+        speedX = -speedX #teeb kiirusest negatiivse kiiruse
     #kui palli positsioon on suurem kui screenX siis see läheb kuhugi muusse suunda
     if posY > screenY - ball.get_rect().height or posY < 0:
         speedY = -speedY
-    if posY > screenY - ball.get_rect().width or pposY < 0:
-        speedY = -speedY
+    #kui pall läheb palgist mööda siis läheb punkt skoorist maha
+    if posY > screenY -ball.get_rect().height:
+        score-=1
     # kui palgi positsioon on suurem kui screenY siis see läheb vasakule ja paremale
     if pposX > screenX - pad.get_rect().width or pposX < 0:
         aspeedX = -aspeedX
 
-
-
-
+    # kui pall puutub palki siis see põrkab ning lisab skoori
+    if pall.colliderect(pad_rect) and speedY > 0:
+        speedY = -speedY
+        score +=1
 
     pygame.display.flip()#värskendab ekraani
     screen.fill(black)#täidab tausta valitud värviga
