@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb9e815-8b09-46b7-8789-5d867f951425" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_03_2023_12_15__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_03_2023_12_15__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingPong2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pingpong-ÜL6/PingPong2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake game.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pingpong-ÜL6/PingPong2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pingpong-ÜL6/PingPong2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pygame2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +34,22 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2KaIAhD7ucf3rJWKorm1phgpSkm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;X:/IS22/robert/pythonProject1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "last_opened_file_path": "X:/IS22/robert/pythonProject1",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="X:\IS22\robert\pythonProject1\pingpong-ÜL6" />
-    </key>
-  </component>
+}]]></component>
   <component name="RunManager">
     <configuration name="järjendid ja for-tsükkel konspekt" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject1" />
@@ -128,6 +128,72 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674206124891</updated>
+    </task>
+    <task id="LOCAL−00001" summary="test">
+      <created>1674206514535</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1674206514535</updated>
+    </task>
+    <task id="LOCAL−00002" summary="test">
+      <created>1674210208868</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1674210208868</updated>
+    </task>
+    <task id="LOCAL−00003" summary="test">
+      <created>1674216058169</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1674216058169</updated>
+    </task>
+    <task id="LOCAL−00004" summary="test">
+      <created>1674217985852</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1674217985852</updated>
+    </task>
+    <task id="LOCAL−00005" summary="test">
+      <created>1674218053422</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1674218053422</updated>
+    </task>
+    <task id="LOCAL−00006" summary="test">
+      <created>1674218113742</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1674218113742</updated>
+    </task>
+    <task id="LOCAL−00007" summary="test">
+      <created>1674218263097</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1674218263097</updated>
+    </task>
+    <task id="LOCAL−00008" summary="test">
+      <created>1674819752663</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1674819752663</updated>
+    </task>
+    <task id="LOCAL−00009" summary="test">
+      <created>1674819824875</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1674819824875</updated>
+    </task>
+    <task id="LOCAL−00010" summary="test">
+      <created>1674819878079</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1674819878080</updated>
+    </task>
+    <task id="LOCAL−00011" summary="test">
+      <created>1674820481247</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1674820481247</updated>
     </task>
     <task id="LOCAL−00012" summary="test">
       <created>1674820556303</created>
@@ -346,85 +412,21 @@
       <option name="presentableId" value="LOCAL−00047" />
       <updated>1676536597605</updated>
     </task>
-    <task id="LOCAL−00048" summary="test">
-      <created>1677050733711</created>
-      <option name="number" value="LOCAL−00048" />
-      <option name="presentableId" value="LOCAL−00048" />
-      <updated>1677050733711</updated>
+    <task id="LOCAL-00048" summary="test">
+      <created>1677095592356</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1677095592356</updated>
     </task>
-    <task id="LOCAL−00049" summary="test">
-      <created>1677050767398</created>
-      <option name="number" value="LOCAL−00049" />
-      <option name="presentableId" value="LOCAL−00049" />
-      <updated>1677050767398</updated>
+    <task id="LOCAL-00049" summary="test">
+      <created>1677534717739</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1677534717739</updated>
     </task>
-    <task id="LOCAL−00050" summary="test">
-      <created>1677053431593</created>
-      <option name="number" value="LOCAL−00050" />
-      <option name="presentableId" value="LOCAL−00050" />
-      <updated>1677053431593</updated>
-    </task>
-    <task id="LOCAL−00051" summary="test">
-      <created>1677053434560</created>
-      <option name="number" value="LOCAL−00051" />
-      <option name="presentableId" value="LOCAL−00051" />
-      <updated>1677053434560</updated>
-    </task>
-    <task id="LOCAL−00052" summary="test">
-      <created>1677054997419</created>
-      <option name="number" value="LOCAL−00052" />
-      <option name="presentableId" value="LOCAL−00052" />
-      <updated>1677054997419</updated>
-    </task>
-    <task id="LOCAL−00053" summary="test">
-      <created>1677055755828</created>
-      <option name="number" value="LOCAL−00053" />
-      <option name="presentableId" value="LOCAL−00053" />
-      <updated>1677055755828</updated>
-    </task>
-    <task id="LOCAL−00054" summary="test">
-      <created>1677057920387</created>
-      <option name="number" value="LOCAL−00054" />
-      <option name="presentableId" value="LOCAL−00054" />
-      <updated>1677057920387</updated>
-    </task>
-    <task id="LOCAL−00055" summary="test">
-      <created>1678098693429</created>
-      <option name="number" value="LOCAL−00055" />
-      <option name="presentableId" value="LOCAL−00055" />
-      <updated>1678098693429</updated>
-    </task>
-    <task id="LOCAL−00056" summary="test">
-      <created>1678099154654</created>
-      <option name="number" value="LOCAL−00056" />
-      <option name="presentableId" value="LOCAL−00056" />
-      <updated>1678099154654</updated>
-    </task>
-    <task id="LOCAL−00057" summary="test">
-      <created>1678099254198</created>
-      <option name="number" value="LOCAL−00057" />
-      <option name="presentableId" value="LOCAL−00057" />
-      <updated>1678099254198</updated>
-    </task>
-    <task id="LOCAL−00058" summary="test">
-      <created>1678109698248</created>
-      <option name="number" value="LOCAL−00058" />
-      <option name="presentableId" value="LOCAL−00058" />
-      <updated>1678109698248</updated>
-    </task>
-    <task id="LOCAL−00059" summary="test">
-      <created>1678110302357</created>
-      <option name="number" value="LOCAL−00059" />
-      <option name="presentableId" value="LOCAL−00059" />
-      <updated>1678110302357</updated>
-    </task>
-    <task id="LOCAL−00060" summary="test">
-      <created>1678178073783</created>
-      <option name="number" value="LOCAL−00060" />
-      <option name="presentableId" value="LOCAL−00060" />
-      <updated>1678178073783</updated>
-    </task>
-    <option name="localTasksCounter" value="61" />
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
