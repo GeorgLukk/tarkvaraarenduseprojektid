@@ -1,5 +1,4 @@
 import pygame, sys
-from pygame import mixer
 pygame.init()
 
 # värvid
@@ -64,22 +63,22 @@ while not gameover:
     screen.blit(taust, [0, 0])
     screen.blit(ball, (posX, posY))
     screen.blit(pad, (pposX, pposY))
-    #pallile ja palgile ristküliku tegemine
+    # pallile ja palgile ristküliku tegemine
     pall = pygame.Rect(posX,posY,20,20)
     pad_rect = pygame.Rect(pposX, pposY, 120, 20)
 
-    #palli liikuma panemine
+    # palli liikuma panemine
     posX += speedX
     posY += speedY
 
     #palgi liigutamine
     key = pygame.key.get_pressed()  # kui vajutatakse klahvi
-    if key[pygame.K_LEFT]:      # vasakut
-        pposX -= 5              # liigutame palki vasakule
-    if key[pygame.K_RIGHT]:     # paremat
-        pposX += 5              # liigutame palki paremale
+    if key[pygame.K_LEFT]:          # vasakut
+        pposX -= 5                  # liigutame palki vasakule
+    if key[pygame.K_RIGHT]:         # paremat
+        pposX += 5                  # liigutame palki paremale
 
-    #Score kuvamine
+    # Score kuvamine
     screen.blit(pygame.font.Font(None, 30).render(f"Score: {score}", True, [255, 255, 255]),
                 [10, 20])       # skoori kuvamine
     # kui puudub ääri, siis muudab suunda
@@ -99,7 +98,7 @@ while not gameover:
     if pall.colliderect(pad_rect) and speedY > 0:
         speedY = -speedY
         score +=1
-        pygame.mixer.Sound.play(hit)
+        pygame.mixer.Sound.play(hit)#
 
     pygame.display.flip()   #värskendab ekraani
     screen.fill(lGreen)     #täidab tausta valitud värviga
