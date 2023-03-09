@@ -49,10 +49,6 @@ pad = pygame.transform.scale(pad, [120,20])
 ball_rect = pygame.Rect(posX,posY,20,20)
 pad_rect = pygame.Rect(pposX,pposY,120,20)
 
-
-#helid
-#puute_heli=
-
 gameover = False
 #alustab mängu tsükli ning lisab selle sisse mängu komponendid
 while not gameover:
