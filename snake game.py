@@ -23,10 +23,12 @@ pygame.display.set_caption('Snake Game')
 
 clock = pygame.time.Clock()
 
-snake_block = 20
-snake_speed = 15
-high_score = 0
+#suurused
+snake_block = 20    # snake suurus
+snake_speed = 15    # snake kiirus
+high_score = 0      # algne skoor
 
+# Kirjete font ning suurus
 font_style = pygame.font.SysFont("dina", 35)
 score_font = pygame.font.SysFont("dina", 45)
 

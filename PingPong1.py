@@ -18,7 +18,7 @@ screenX = 640
 screenY = 480
 screen = pygame.display.set_mode([screenX, screenY])
 pygame.display.set_caption("Ping-pong")
-screen.fill(black)
+screen.fill(lGreen)
 clock = pygame.time.Clock()
 score = 0
 
@@ -83,6 +83,6 @@ while not gameover:
         score +=1
 
     pygame.display.flip()#värskendab ekraani
-    screen.fill(black)#täidab tausta valitud värviga
+    screen.fill(lGreen)#täidab tausta valitud värviga
 
 pygame.quit()
