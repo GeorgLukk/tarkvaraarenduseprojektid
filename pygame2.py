@@ -277,7 +277,7 @@ class ruut:
                 #määrab funktsioonile suuruse kus see toimib, värvi[x ja y , selfsize ehk külje suurus ja teise külje suurus
                 x += 18#liidab kordinaatidele 18 juurde et see hakkaks õigest kohast teisi ruute joonistama
             y += 18#liidab kordinaatidele 18 juurde et see hakkaks õigest kohast teisi ruute joonistama
-ruut.tee_ruut(ruut([255,0,0], 15, 15))
+ruut.tee_ruut(ruut([0,0,0], 15, 15))
 #käivitab funksiooni mille tegime ning annab sellele värvi ning külgede suurused
 pygame.display.flip()#värskendab akna
 #alustab tsükli !!!!!!!!!!!!!!!!!!!
